@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-hints-example.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-hints-example",
+  "name": "Pistak",
+  "description": "Inork ulertu ez zaituenean, agian esan nahi zenuen esaldia proposatzen du.",
+  "examples": [
+    "Eh, erlojuarena",
+    "Zerbait barregarria"
+  ],
+  "tags": [
+    "fallback",
+    "hints",
+    "help",
+    "emkay"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-hints-example.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-hints-example",
+  "name": "Suggerimenti",
+  "description": "Quando nessuno ti ha capito, suggerisce la frase che forse volevi dire.",
+  "examples": [
+    "Ehm, la cosa dell'orologio",
+    "Qualcosa di divertente"
+  ],
+  "tags": [
+    "fallback",
+    "hints",
+    "help",
+    "emkay"
+  ]
+}

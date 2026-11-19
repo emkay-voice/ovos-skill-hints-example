@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-hints-example.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-hints-example",
+  "name": "Tips",
+  "description": "Als niemand je begreep, stelt het de zin voor die je misschien bedoelde.",
+  "examples": [
+    "Eh, dat van de klok",
+    "Iets grappigs"
+  ],
+  "tags": [
+    "fallback",
+    "hints",
+    "help",
+    "emkay"
+  ]
+}

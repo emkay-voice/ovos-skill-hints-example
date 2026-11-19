@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-hints-example"
+version = "0.1.0"
+description = "Hints when nobody understood: a fallback skill that suggests the sentence you may have meant"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "emkay-voice"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "emkay", "fallback", "hints", "help"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+# what the skill needs besides OpenVoiceOS itself; Emkay installs these too
+dependencies = [
+    "ovos-workshop>=0.0.15,<10.0.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "ovos-bus-client"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-skill-hints-example"
+
+# how OpenVoiceOS finds the skill: "<skill id>" = "<package>:<class>"
+[project.entry-points."opm.skill"]
+"ovos-skill-hints-example.emkay-voice" = "ovos_skill_hints_example:HintsSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_hints_example"]
+
+[tool.setuptools.package-data]
+ovos_skill_hints_example = ["locale/**/*"]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+testpaths = ["tests"]

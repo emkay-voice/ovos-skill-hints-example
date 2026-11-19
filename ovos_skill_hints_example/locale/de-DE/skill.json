@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-hints-example.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-hints-example",
+  "name": "Tipps",
+  "description": "Wenn dich niemand verstanden hat, schlägt es den Satz vor, den du vielleicht meintest.",
+  "examples": [
+    "Äh, das mit der Uhr",
+    "Etwas Lustiges"
+  ],
+  "tags": [
+    "fallback",
+    "hints",
+    "help",
+    "emkay"
+  ]
+}
